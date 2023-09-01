@@ -73,3 +73,69 @@
 #     print("length are equal")
 # else:
 #     print("length are not equal")
+
+
+
+# def function_name(gume):
+#     print(gume)
+# function_name("Dhana sekhar")
+
+
+# def great(m):
+#     print("hello",m,"welcome to my project")
+# na = "dhana sekhar"
+# great(na)
+
+
+# def print(n):
+#         l = []
+#         for i in range(50):
+#                 if i%2 == 0:
+#                     l.append(i)
+#         print(l)
+# n = 50
+# print(n)
+
+# l = []
+# for i in range (50):
+#     if i%2 == 0:
+#         l.append(i)
+# print(l)
+
+
+
+# def printingivennumber(n):
+#     l = []
+#     for i in range (50):
+#         if i%2 == 0:
+#             l.append(i)
+#     print()
+# n = 50
+# printingivennumber(n)
+
+
+# def display(*m):
+#     for i in m:
+#         print(i)
+# display("Dhana","jamuna","yellamma")
+
+# def sum (*n):
+#     total = 0
+#     for i in n:
+#         total = total +i
+#     print(total)
+# sum(10,20,30,40,50,60)
+
+
+# def display(**n):
+#     for k,v in n.items():
+#         print(k,":",v)
+# display(name1 = "Dhana",name2 = "sekhar",name3 ="jamuna")
+
+
+
+def display(**kwarg):
+    for k,v in kwarg.items():
+        print(k,":",v)
+display(name1 = "Dhana",name2 = "sekhar",name3 ="jamuna")
+display(name1 = "Dhana",name2 = "sekhar",name3 ="jamuna")
