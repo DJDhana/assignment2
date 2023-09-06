@@ -67,15 +67,12 @@
 # returnedIterable = filter(eligible, ages)
 # print(list(returnedIterable))
 
-nums = [10, 3, 192, 55, 20, 77 , 91]
-
-# creating a function that will return True if the number is divisible by 5
-# % here is the modulus operator to check the remainder when divided by 5
-def divisible(i):
-    if i%6==0:
-        return True
-    else:
-        return False
-nums = [23,18,396,12,96,126,172,963]
-divisible_by_6 = filter(divisible, nums)
-print(list(divisible_by_6))
+# creating a function that will return True if the number is divisible by 6
+# def divisible(i):
+#     if i%6==0:
+#         return True
+#     else:
+#         return False
+# nums = [23,18,396,12,96,126,172,963]
+# divisible_by_6 = filter(divisible, nums)
+# print(list(divisible_by_6))
