@@ -131,11 +131,4 @@
 #     for k,v in n.items():
 #         print(k,":",v)
 # display(name1 = "Dhana",name2 = "sekhar",name3 ="jamuna")
-
-
-
-def display(**kwarg):
-    for k,v in kwarg.items():
-        print(k,":",v)
-display(name1 = "Dhana",name2 = "sekhar",name3 ="jamuna")
 display(name1 = "Dhana",name2 = "sekhar",name3 ="jamuna")
