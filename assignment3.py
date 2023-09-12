@@ -131,4 +131,15 @@
 #     for k,v in n.items():
 #         print(k,":",v)
 # display(name1 = "Dhana",name2 = "sekhar",name3 ="jamuna")
-display(name1 = "Dhana",name2 = "sekhar",name3 ="jamuna")
+# display(name1 = "Dhana",name2 = "sekhar",name3 ="jamuna")
+
+
+users = {'dhana':'1234','sekhar':'5678','amma':'0987','nana':'6543'}
+def login():
+    username = input("Enter your username")
+    password = input("Enter your password")
+
+    if username in users and users [username] == password :
+        print ("login successfull")
+    else :
+        print (" Go to sinup page")
