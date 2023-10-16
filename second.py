@@ -174,3 +174,27 @@
 # dict3 =dict2.copy()
 # dict3.update(dict1)
 # print(dict3)
+
+
+
+num1 = float(input("enter first number: "))
+num2 = float(input("enter second number: "))
+
+print ("press 1 for add")
+print ("press 2 for sub")
+print ("press 3 for mul")
+print ("press 4 for div")
+
+choice = int("enter your choice from 1,2,3,4")
+
+if choice == 1:
+    print(num1 + num2)
+elif choice == 2:
+    print(num1 - num2)
+elif choice == 3:
+    print(num1 * num2)
+elif choice == 4:
+    print (num1 / num2)
+else :
+    print ("invalid input")
+    
