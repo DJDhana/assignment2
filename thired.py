@@ -98,3 +98,41 @@
 # # dict3 =dict2.copy()
 # # dict3.update(dict1)
 # # print(dict3)
+
+
+shopping_list = []
+
+def show_help():
+    print('What should we pick up at the store?')
+    print("""
+  Enter 'DONE' to stop adding items.
+  Enter 'REMOVE' to remove from the list
+  Enter 'SHOW' to see your shopping list
+  """)
+def add_to_list(item):
+    shopping_list.append(item)
+    print('{} was added to your shopping list!'.format(item))
+    print('You have {} items on your list.'.format(len(shopping_list)))
+
+def remove_list():
+    shopping_list.remove(item)
+    print (shopping_list)
+# Create a function to print all the items in the shopping list
+def show_list():
+    print('My Shopping List:')
+    for item in shopping_list:
+        print(item)
+
+while True:
+    new_item = input('> ')
+
+    if new_item == 'DONE':
+        break
+    elif new_item == 'REMOVE':
+        remove_list()
+        break
+    elif new_item == 'SHOW':
+        show_list()
+        continue
+    add_to_list(new_item)
+show_list()
