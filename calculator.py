@@ -21,19 +21,19 @@
 # calculator ()
 
 
-employee = {}
-emp = int(input("enter a number of employee: "))
-for i in range (emp):
-    emp_id = input("Enter Employee ID: ")
-    name = input("Enter Employee Name: ")
-    designation = input("Enter Employee Designation: ")
-    email = input("Enter Employee Email: ")
+# employee = {}
+# emp = int(input("enter a number of employee: "))
+# for i in range (emp):
+#     emp_id = input("Enter Employee ID: ")
+#     name = input("Enter Employee Name: ")
+#     designation = input("Enter Employee Designation: ")
+#     email = input("Enter Employee Email: ")
     
-    employee [name] = {"name":name,"emp_id":emp_id,"designation":designation,"email":email}
-    print("Employee details added successfully!")
-def filter_details():
-    selected_name=input("enter a name:")
-    for key,value in employee.items():
-        if value["name"]==selected_name:
-            print(key,value)
-filter_details()
+#     employee [name] = {"name":name,"emp_id":emp_id,"designation":designation,"email":email}
+#     print("Employee details added successfully!")
+# def filter_details():
+#     selected_name=input("enter a name:")
+#     for key,value in employee.items():
+#         if value["name"]==selected_name:
+#             print(key,value)
+# filter_details()

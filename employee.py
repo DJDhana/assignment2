@@ -64,25 +64,3 @@
 #             print(f"{key}: {value}")
 #     else:
 #         print("Employee not found.")
-employee_list = []
-
-def add_employee():
-    emp_id = input("Enter Employee ID: ")
-    name = input("Enter Employee Name: ")
-    designation = input("Enter Employee Designation: ")
-    email = input("Enter Employee Email: ")
-    
-    employee = {
-        'Emp_ID': emp_id,
-        'Name': name,
-        'Designation': designation,
-        'Email': email
-    }
-    
-    employee_list.append(employee)
-    print("Employee details added successfully!")
-def filter_employee(attribute, value):
-    wanted_destination=input("enter destination:")
-    for key,value in employees.items():
-        if value["destination"]==wanted_destination:
-                print(attribute,value)
