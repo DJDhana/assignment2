@@ -59,26 +59,32 @@
 # add_employee ()
 # print_employee_details ()
 
-n = int(input("enter first number:"))
-n1 = int(input("enter second number:"))
-print("Select operation.")
-print("1.Add")
-print("2.Subtract")
-print("3.Multiply")
-print("4.Divide")
-while True :
-    choice = input("Enter choice(1/2/3/4): ")
-    if choice in ('1', '2', '3', '4'):
-        print("Invalid input. Please enter a number.")
-        continue
-    if choice == '1':
-        print(n, "+", n1, "=", add(n, n1))
+# n = int(input("enter first number:"))
+# n1 = int(input("enter second number:"))
+# print("Select operation.")
+# print("1.Add")
+# print("2.Subtract")
+# print("3.Multiply")
+# print("4.Divide")
+# while True :
+#     choice = input("Enter choice(1/2/3/4): ")
+#     if choice in ('1', '2', '3', '4'):
+#         print("Invalid input. Please enter a number.")
+#         continue
+#     if choice == '1':
+#         print(n, "+", n1, "=", add(n, n1))
 
-    elif choice == '2':
-        print(n, "-", n1, "=", subtract(n, n1))
+#     elif choice == '2':
+#         print(n, "-", n1, "=", subtract(n, n1))
 
-    elif choice == '3'
-        print(n, "*", n1, "=", multiply(n, n1))
+#     elif choice == '3'
+#         print(n, "*", n1, "=", multiply(n, n1))
     
-    elif choice == '4':
-        print(n, "/", n1, "=", divide(n, n1))
+#     elif choice == '4':
+#         print(n, "/", n1, "=", divide(n, n1))
+
+
+a='I'
+b='am'
+c='studying'
+print(a,b,c)
